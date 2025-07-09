@@ -1,0 +1,214 @@
+body {
+  background-color: #0c0d0e;
+  color: aliceblue;
+  font-family: Verdana;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.card {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 300px; /* ou la taille que tu veux */
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.column h4 {
+  margin: 0 16px 8px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+  min-width: 200px;
+  box-shadow: 7px 7px 7px rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(1, 200px);
+  gap: 20px;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+
+}
+
+.dropdown-content.active {
+  display: grid;
+}
+
+.elanimg {
+  width: 60%;
+  height: auto;
+  margin-top: 80px;
+
+}
+
+.First {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  gap: 80px;
+  padding-left: 5rem;
+  font-size : 2.5rem;
+  width: 20px;
+  height: 60px;
+
+}
+
+.Menu-Section {
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  padding: 20px 40px;
+  gap: 60px; /* espace entre logo et liens */
+}
+
+.navbar {
+  gap: 100px;
+  padding: 40px;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: semi bold;
+  margin-right: 60px;
+}
+
+.slider {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.slider-container {
+  display: grid;
+  background-color: transparent;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  gap: 5rem; /* espace entre les éléments */
+}
+
+.slider-container a img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider-wrapper {
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden; /* cache les badges en trop */
+  display: flex;
+  justify-content: center;
+}
+
+.TextBadge {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 40px;
+
+}
+
+.contentlicence {
+  text-align: justify;
+  line-height: 1.8;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-size: 14px;
+
+}
+
+.Licencetitre {
+  margin-top: 40px;
+
+}
+
+.h1licence {
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+
+.polit {
+  margin-top: 30px auto;
+  display: grid;
+
+}
+
+.politlinks {
+  text-decoration: none;
+  color: white;
+
+}
+
+.h2first {
+  margin-top: 60px;
+
+}
