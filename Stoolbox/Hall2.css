@@ -108,7 +108,7 @@ body {
 .dropbtn {
   text-decoration: none;
   color: #ffffff;
-  padding: 10px 15px;
+  padding: 10px 10px;
   display: inline-block;
   cursor: pointer;
   user-select: none;
@@ -128,7 +128,7 @@ body {
 
 .dropdown-content a {
   color: #000000;
-  padding: 8px 16px;
+  padding: 8px 8px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -150,13 +150,13 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 0;
   background: #ffffff;
   border-radius: 20px;
   padding: 20px;
   grid-template-columns: repeat(1, 200px);
-  gap: 20px;
+  gap: 10px;
   color: rgb(0, 0, 0);
   z-index: 100;
 
@@ -195,7 +195,7 @@ body {
 
 .logo {
   display: flex;
-  gap: 80px;
+  gap: 20px;
   padding-left: 5rem;
   font-size : 2.5rem;
   width: 20px;
@@ -207,13 +207,13 @@ body {
   display: flex;
   align-items: center;
   background-color: #111;
-  padding: 20px 40px;
-  gap: 60px; /* espace entre logo et liens */
+  padding: 10px 10px;
+  gap: 20px; /* espace entre logo et liens */
 }
 
 .navbar {
-  gap: 100px;
-  padding: 40px;
+  gap: 30px;
+  padding: 20px;
 
 }
 
